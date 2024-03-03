@@ -1,0 +1,39 @@
+body{
+    background-color: #FFEED9;
+}
+form{
+    border: 2px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    border-radius: 2%;
+    margin-top: 7%;
+}
+.name , .email , .review-div , .suggesion , .footer , .stars , .submit{
+    border: solid 2px black;
+    margin: 10px auto 10px;
+    padding: 5px;
+}
+#kalakaar{
+    background-color: #39A7FF;
+    border: 2px solid;
+    width: 22.786458333333332vw;
+}
+#opinion , #submit{
+    background-color: #39A7FF;
+    width: 22.395833333333332vw;
+}
+#stars {
+    background-color: #39A7FF;
+    width: 22.395833333333332vw;
+}
+#name , #email {
+    background-color: #39A7FF;
+    width: 22.395833333333332vw;
+}
+#name::placeholder ,#email::placeholder {
+    color: black; 
+}
+#submit::placeholder , #opinion::placeholder {
+    color: black;
+}

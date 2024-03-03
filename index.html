@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - By Jordan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="mailto:jordanpostbox@gmail.com" method="post" enctype="text/plain">
+        <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter name here" required>
+        </div>
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter email here" required>
+        </div>
+        <div class="review-div">
+            <label>Do you like this form?</label>
+            <br>
+            <input type="radio" name="review" id="yes" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="review" id="no" value="No">
+            <label for="no">No</label>
+        </div>
+        <div class="suggesion">
+            <label for="suggesion">Do you have any suggesions on improving this form?</label>
+            <br>
+            <textarea name="suggesion" id="submit" cols="40" rows="1" placeholder="Your Suggesions"></textarea>
+        </div>
+        <div class="footer">
+            <label for="opinion">what do you think about this website?</label>
+            <br>
+            <textarea name="opinion" id="opinion" cols="40" rows="1"  placeholder="Your Opinion"></textarea>
+        </div>
+        <div class="stars">
+            <label for="stars">How many stars would you give this form?</label>
+            <br>
+            <select name="stars" id="stars">
+                <option value="5 Stars">5 Stars</option>
+                <option value="4 Stars">4 Stars</option>
+                <option value="3 Stars">3 Stars</option>
+                <option value="2 Stars">2 Stars</option>
+                <option value="1 Stars">1 Stars</option>
+            </select>
+        </div>
+        <div class="submit">
+            <input type="submit" id="kalakaar" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
